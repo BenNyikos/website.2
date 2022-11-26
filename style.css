@@ -56,7 +56,6 @@ a {
   width: 430px;
   align-items: center;
 }
-
 #header-bottom {
   display: flex;
   align-items: center;
@@ -188,6 +187,19 @@ a {
 
 /*CONTACT PAGE*/
 
+input,
+select,
+textarea {
+  color: #e5e7eb;
+}
+textarea:focus,
+input:focus {
+  color: #1f2937;
+}
+::placeholder {
+  color: #1f2937;
+}
+
 #contact-main {
   height: 1200px;
   width: 100%;
@@ -250,19 +262,6 @@ a {
   background-color: #e5e7eb;
   border-color: #e5e7eb;
   color: #1f2937;
-}
-::placeholder {
-  color: #1f2937;
-}
-textarea:focus,
-input:focus {
-  color: #1f2937;
-}
-
-input,
-select,
-textarea {
-  color: #e5e7eb;
 }
 #contact-call-for-action {
   color: #e5e7eb;
