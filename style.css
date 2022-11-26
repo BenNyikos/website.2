@@ -49,14 +49,12 @@ a {
 }
 #header-name {
   flex: 1;
-  
 }
 #header-link-box {
   display: flex;
   justify-content: space-between;
   width: 430px;
   align-items: center;
-  
 }
 
 #header-bottom {
@@ -71,7 +69,8 @@ a {
   max-width: 450px;
   padding-bottom: 10px;
 }
-#header-button, #contact-submit {
+#header-button,
+#contact-submit {
   color: #f9faf8;
   font-size: 17px;
   font-weight: 500;
@@ -195,30 +194,26 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(31,41,55, 0.8)
-  
+  background-color: rgba(31, 41, 55, 0.8);
 }
 #contact-box {
   height: 1100px;
   width: 800px;
-  background-color: #e5e7eb;
+  background-color: #1f2937;
   display: flex;
   flex-direction: column;
   border-radius: 15px;
-  
 }
 #contact-name {
-  margin:0px;
+  margin: 0px;
   font-size: 48px;
-  color:#f9faf8;
-  background-color: #1f2937;
+  color: #1f2937;
+  background-color: #e5e7eb;
   height: 70px;
   padding: 80px;
   border-radius: 15px;
-  
 }
 #contact-input-box {
-  
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -228,46 +223,50 @@ a {
 .contact-input {
   width: 300px;
   height: 35px;
-  background-color: #1f2937;
-  border: solid 2px #e5e7eb;
+  background-color: #e5e7eb;
+  border: solid 2px #1f2937;
   border-radius: 8px;
   padding: 7px;
-  color: #f9faf8;
+  color: #1f2937;
   font-size: 17px;
   font-weight: 500;
-  margin:20px;
+  margin: 20px;
   margin-top: 30px;
 }
 #contact-input-text {
   font-size: 17px;
   font-weight: 500;
-  background-color: #1f2937;
-  border: solid 2px   #e5e7eb;
+  background-color: #e5e7eb;
+  border: solid 2px #1f2937;
   border-radius: 8px;
   padding: 7px;
   margin: 20px;
   height: 200px;
   width: 400px;
 }
-#contact-submit{
- margin: 20px;
- font-size: 30px;
- background-color: #1f2937;
- border-color: #1f2937;
+#contact-submit {
+  margin: 20px;
+  font-size: 30px;
+  background-color: #e5e7eb;
+  border-color: #e5e7eb;
+  color: #1f2937;
 }
 ::placeholder {
-  color:#e5e7eb;
+  color: #1f2937;
 }
-textarea:focus, input:focus {
-  color:#e5e7eb;
+textarea:focus,
+input:focus {
+  color: #1f2937;
 }
 
-input, select, textarea{
-  color:#e5e7eb;
+input,
+select,
+textarea {
+  color: #e5e7eb;
 }
 #contact-call-for-action {
-  color: #1f2937;
+  color: #e5e7eb;
   font-size: 30px;
-  margin-left:30px;
+  margin-left: 30px;
   font-weight: 900;
 }
